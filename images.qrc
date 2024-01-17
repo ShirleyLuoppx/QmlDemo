@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imagine-assets/pic03.jpg</file>
+        <file>imagine-assets/01.png</file>
+        <file>imagine-assets/sofa.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>RedSquare.qml</file>
+        <file>Button.qml</file>
+        <file>ClickableImage.qml</file>
+        <file>transform.qml</file>
+        <file>BlueSquare.qml</file>
+        <file>GreenSquare.qml</file>
+        <file>column.qml</file>
+        <file>row.qml</file>
+        <file>grid.qml</file>
+        <file>flow.qml</file>
+        <file>repeater.qml</file>
+        <file>input.qml</file>
+        <file>keys.qml</file>
+        <file>animation.qml</file>
+        <file>parallelanimation.qml</file>
+        <file>FlowDemo.qml</file>
+        <file>downPullBar.qml</file>
+        <file>TestSth.qml</file>
+        <file>ListViewDemo.qml</file>
+    </qresource>
+</RCC>
