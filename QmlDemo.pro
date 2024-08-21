@@ -1,11 +1,25 @@
-QT += quick
+QT += quick core gui
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
+
+TARGET          = Launcher
+PROJECT_DIR     = $$PWD
+DESTDIR         = $$PWD/../app_bin/
+
 SOURCES += \
-        main.cpp
+        CppObject.cpp \
+        main.cpp \
+        myqmlinteract.cpp \
+        qmlinteractcpp.cpp
+
+HEADERS += \
+    CppObject.h \
+    myobject.h \
+    myqmlinteract.h \
+    qmlinteractcpp.h
 
 RESOURCES += qml.qrc \
     images.qrc
@@ -22,3 +36,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES +=
+
+
+
+FORMS +=

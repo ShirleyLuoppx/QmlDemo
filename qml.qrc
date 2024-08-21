@@ -20,5 +20,17 @@
         <file>downPullBar.qml</file>
         <file>TestSth.qml</file>
         <file>ListViewDemo.qml</file>
+        <file>QmlInteractCpp.qml</file>
+        <file>MyQmlInteract.qml</file>
+        <file>RepeaterDemo.qml</file>
+        <file>GridViewDemo.qml</file>
+        <file>test.qml</file>
+        <file>comboboxTest.qml</file>
+        <file>SliderTest.qml</file>
+        <file>PopUpDemo.qml</file>
+        <file>TestPopUp.qml</file>
+        <file>HorizontalSliderDemo.qml</file>
+        <file>ACTest1.qml</file>
+        <file>temp.qml</file>
     </qresource>
 </RCC>

@@ -3,5 +3,15 @@
         <file>imagine-assets/pic03.jpg</file>
         <file>imagine-assets/01.png</file>
         <file>imagine-assets/sofa.png</file>
+        <file>imagine-assets/ic_scenario_mode_down.png</file>
+        <file>imagine-assets/ic_scenario_mode_up.png</file>
+        <file>imagine-assets/blowhead0.png</file>
+        <file>imagine-assets/blowhead1.png</file>
+        <file>imagine-assets/blowhead2.png</file>
+        <file>imagine-assets/blowhead3.png</file>
+        <file>imagine-assets/blowhead4.png</file>
+        <file>imagine-assets/blowhead5.png</file>
+        <file>imagine-assets/blowhead6.png</file>
+        <file>imagine-assets/blowhead7.png</file>
     </qresource>
 </RCC>
