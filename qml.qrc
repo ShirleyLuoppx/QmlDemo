@@ -32,5 +32,7 @@
         <file>HorizontalSliderDemo.qml</file>
         <file>ACTest1.qml</file>
         <file>temp.qml</file>
+        <file>quickStarter/basicElements.qml</file>
+        <file>quickStarter/MyClickableImage.qml</file>
     </qresource>
 </RCC>

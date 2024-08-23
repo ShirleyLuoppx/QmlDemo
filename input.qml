@@ -23,7 +23,7 @@ Item {
         text: "text input 2"
         anchors.top: input1.bottom
         KeyNavigation.tab: input1
-    }
+    }   
 
     TextEdit{
         id:edit
