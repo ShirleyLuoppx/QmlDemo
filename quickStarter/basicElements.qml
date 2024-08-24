@@ -274,20 +274,52 @@ Rectangle{
             id:input1
             width: 200
             height: 50
-            focus: true
+            // focus: true
             text: "input1"
-            KeyNavigation.tab: input2  //KeyNavigation啥作用啊
+            KeyNavigation.tab: greenSquareKeyAction  //KeyNavigation：按下键盘上的Tab键的时候，焦点会切换到input2
         }
 
         TextInput{
             id:input2
             width: 200
             height: 50
-            focus: true
+            // focus: true
             anchors.left: input1.right
             anchors.leftMargin: 20
             text: "input2"
             KeyNavigation.tab: input1
+        }
+
+        FocusScopeTextEdit{
+            id:myEdit
+            text: "edit text"
+            // focus: true
+            width: 100
+            height: 100
+            anchors.left: input2.right
+            anchors.leftMargin: 20
+        }
+
+        GreenSquare{
+            id:greenSquareKeyAction
+            color: "pink"
+            x:600
+            y:0
+            focus: true
+            Keys.onLeftPressed: greenSquareKeyAction.x-=5
+            Keys.onRightPressed: greenSquareKeyAction.x+=5
+            Keys.onUpPressed: greenSquareKeyAction.y-=5
+            Keys.onDownPressed: greenSquareKeyAction.y+=5
+
+
+            Keys.onPressed: {
+                switch(event.key){
+                case Qt.Key_Plus:greenSquareKeyAction.scale+=0.1
+                    break;
+                case Qt.Key_Minus:greenSquareKeyAction.scale-=0.1
+                    break
+                }
+            }
         }
     }
 }
