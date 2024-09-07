@@ -35,5 +35,9 @@
         <file>quickStarter/basicElements.qml</file>
         <file>quickStarter/MyClickableImage.qml</file>
         <file>quickStarter/FocusScopeTextEdit.qml</file>
+        <file>fluidElements/Animation.qml</file>
+        <file>fluidElements/ClickableImageV2.qml</file>
+        <file>fluidElements/ClickableImageV3.qml</file>
+        <file>fluidElements/EasingTypes.qml</file>
     </qresource>
 </RCC>
