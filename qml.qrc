@@ -39,5 +39,6 @@
         <file>fluidElements/ClickableImageV2.qml</file>
         <file>fluidElements/ClickableImageV3.qml</file>
         <file>fluidElements/EasingTypes.qml</file>
+        <file>fluidElements/GroupedAnimations.qml</file>
     </qresource>
 </RCC>
