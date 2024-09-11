@@ -78,3 +78,5 @@ qmlcache_loader.cpp
 moc_*.*
 *stash
 app_bin/Launcher
+
+QmlDemo.pro.user
