@@ -45,6 +45,9 @@
         <file>fluidElements/demo.qml</file>
         <file>model_view_delegate/BasicModel.qml</file>
         <file>model_view_delegate/DynamicViews.qml</file>
-        <file>model_view_delegate/demo.qml</file>
+        <file>model_view_delegate/highLightDemo.qml</file>
+        <file>model_view_delegate/Delegate.qml</file>
+        <file>model_view_delegate/shapeShiftDelegateDemo.qml</file>
+        <file>model_view_delegate/ShapeShiftDel.qml</file>
     </qresource>
 </RCC>
