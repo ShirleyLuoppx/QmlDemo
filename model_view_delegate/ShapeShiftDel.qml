@@ -8,8 +8,6 @@ Item {
 
     ListView{
         id:lv
-        width: parent.width
-        height: parent.height
         anchors.fill: parent
         model: mModel
         delegate: mDelegate
@@ -37,25 +35,34 @@ Item {
                 id: txName
                 width: 100
                 text: name
-                anchors.top: parent.top
-                anchors.bottom: parent.bottom
-                anchors.topMargin: 10
                 font.pixelSize: 20
-            }
-
-            Image {
-                id: igImage
-                source: image
-                width: wrapper.height
-                height: wrapper.height
-                fillMode: Image.PreserveAspectFit
-                anchors.right: parent.right
-                anchors.rightMargin: 10
+                anchors.top: parent .top
+                anchors.topMargin: 15
             }
 
             Rectangle{
+                id:recImage
+                width: 50
+                height: 50
+                anchors.right: parent.right
+                anchors.rightMargin: 10
+                anchors.top: parent.top
+                anchors.topMargin: 2
+                color: "black"
+
+                Image {
+                    id: igImage
+                    source: image
+                    width: parent.height
+                    height: parent.height
+                    fillMode: Image.PreserveAspectFit
+                }
+            }
+
+
+            Rectangle{
                 id:rectFact
-                anchors.top: igImage.bottom
+                anchors.top: recImage.bottom
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.bottom: parent.bottom
@@ -67,6 +74,8 @@ Item {
                     text: fact
                     width: parent.width
                     wrapMode: Text.WordWrap
+                    anchors.top: parent.top
+                    anchors.topMargin: 10
                 }
             }
 
@@ -81,7 +90,7 @@ Item {
                 id:rectClose
                 width: 50
                 height: 50
-                color: "black"
+                color: "lightBlue"
                 anchors.right: parent.right
                 anchors.rightMargin: 10
                 opacity: 0
@@ -103,7 +112,7 @@ Item {
                         target: wrapper;height:lv.height
                     }
                     PropertyChanges {
-                        target:igImage; height:lv.width; width:lv.width; anchors.rightMargin: 0; anchors.topMargin: 50;
+                        target:recImage; height:lv.width; width:lv.width; anchors.rightMargin: 0;anchors.topMargin: 50;
                     }
                     PropertyChanges{
                         target: rectClose; opacity:1
