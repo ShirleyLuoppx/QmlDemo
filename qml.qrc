@@ -56,5 +56,7 @@
         <file>model_view_delegate/PathViewDemo2.qml</file>
         <file>model_view_delegate/MyHorizontalPathViewDemo.qml</file>
         <file>model_view_delegate/MyVerticalPathViewDemo.qml</file>
+        <file>model_view_delegate/XmlListModelDemo.qml</file>
+        <file>model_view_delegate/ListWithSwctionsDemo.qml</file>
     </qresource>
 </RCC>
