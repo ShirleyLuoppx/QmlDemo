@@ -55,5 +55,6 @@
         <file>model_view_delegate/CanvasToMyPathViewDemo.qml</file>
         <file>model_view_delegate/PathViewDemo2.qml</file>
         <file>model_view_delegate/MyHorizontalPathViewDemo.qml</file>
+        <file>model_view_delegate/MyVerticalPathViewDemo.qml</file>
     </qresource>
 </RCC>
