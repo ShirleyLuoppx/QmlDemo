@@ -49,5 +49,11 @@
         <file>model_view_delegate/Delegate.qml</file>
         <file>model_view_delegate/shapeShiftDelegateDemo.qml</file>
         <file>model_view_delegate/ShapeShiftDel.qml</file>
+        <file>model_view_delegate/PathViewDemo.qml</file>
+        <file>model_view_delegate/MyPathElementsDemo.qml</file>
+        <file>model_view_delegate/ImageChangeDemo.qml</file>
+        <file>model_view_delegate/CanvasToMyPathViewDemo.qml</file>
+        <file>model_view_delegate/PathViewDemo2.qml</file>
+        <file>model_view_delegate/MyHorizontalPathViewDemo.qml</file>
     </qresource>
 </RCC>
